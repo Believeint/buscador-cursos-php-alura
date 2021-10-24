@@ -18,8 +18,6 @@ $crawler = new Crawler();
 $buscador = new Buscador($client, $crawler);
 $cursos = $buscador->buscar('/cursos-online-programacao/php');
 
-echo '<ul>';
 foreach ($cursos as $curso) {
     exibeItemLista($curso);
 }
-echo '</ul>';
