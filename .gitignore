@@ -1,0 +1,4 @@
+.idea/
+.phan
+.phpunit.result.cache
+vendor/
