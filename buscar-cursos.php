@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 
 use Alura\BuscadorDeCursos\Buscador;
@@ -6,9 +7,6 @@ use GuzzleHttp\Client;
 use Symfony\Component\DomCrawler\Crawler;
 
 require_once 'vendor/autoload.php';
-
-$saudacao = Buscador::exibeSaudacao();
-
 
 $client = new Client([
     'base_uri' => 'https://www.alura.com.br/',
@@ -22,6 +20,6 @@ $cursos = $buscador->buscar('/cursos-online-programacao/php');
 
 echo '<ul>';
 foreach ($cursos as $curso) {
-    echo exibeItemLista($curso);
+    exibeItemLista($curso);
 }
 echo '</ul>';
