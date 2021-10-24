@@ -1,5 +1,5 @@
 <?php
 
 function exibeItemLista(string $curso) {
-    echo '<li>'.$curso.'</li>';
+    echo $curso . PHP_EOL;
 }

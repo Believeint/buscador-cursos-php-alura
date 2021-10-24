@@ -41,5 +41,7 @@
         "check": "Roda as verificaçãoes do código. PHAN, PHPCS E PHPUNIT",
         "ls": "Listar diretório atual"
     },
-    "bin": ["buscar-cursos.php"]
+    "bin": [
+        "buscar-cursos"
+    ]
 }
