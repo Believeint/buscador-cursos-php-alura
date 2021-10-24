@@ -43,6 +43,6 @@
         "ls": "Listar diretório atual"
     },
     "bin": [
-        "vendor\\bin\\buscar-cursos"
+        "buscar-cursos"
     ]
 }

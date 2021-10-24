@@ -6,6 +6,6 @@ Para utilizar é necessário importar via composer
     
 estando na pasta do projeto, digite no terminal:
     
-    composer buscar-cursos
+    vendor\bin\buscar-cursos
 
 Após, irá aparecer uma listagem com todos os cursos de php da Alura
